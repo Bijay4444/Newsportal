@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+          <title>Sports News</title>
+        <meta name="viewport content="width=device-width, initial-scale=1.0">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <link href="latest-posts.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">  
+        <link 
+          rel="stylesheet" 
+          type="text/css" 
+          href="style.css">
+          
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"/>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="page-wrapper">
+            <header id="header">
+                <!-- navigaiton bar with logo  -->
+                <nav id="nav-main" class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img id="header-img" src="https://i.postimg.cc/q7d1fC9T/logo.png" alt="Kathmandu Online Media" width="180" height="140"/>
+                        </a>
+                    </div>
+                    
+                    <div class="wrap">
+                        <div class="search">
+                           <input type="text" class="searchTerm" placeholder="Search">
+                           <button type="submit" class="searchButton">
+                             <i class="fa fa-search"></i>
+                          </button>
+                        </div>
+                     </div>
+                    
+                    <ul class="nav-list" id="naviList">
+                      <li class="list-item"><a href="index.html">Home</a></li>
+                      <li class="list-item"><a href="business.html">Business</a></li>
+                      <li class="list-item"><a href="international.html">International</a></li>
+                      <li class="list-item"><a class="current" href="sports.html">Sports</a></li>
+                    </ul>
+                    <div class="menu" id="toggleButton">
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                    </div>
+                </nav>
+            </header>
+            <!-- news cards section -->
+           <div class="cardcontainer">
+                <div class="row">
+                    <!-- first card -->
+                    <div class="col-4-lg">
+                        <!-- Bootstrap Card-->
+                        <div class="card" style="width:18rem;">
+                            <img src="assests/pictures/sports/nsl.jfif" alt="Card One" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Biratnagar City off to flying start in Nepal Super League</h5>
+                                <p class="card-text">
+                                    Three different players score as Yam Lzs's side thrash national captain Kiran Kumar Limbu-led Dhangadhi FC 3-0 in an empty Dasharath Stadium.
+                                    Bikram Dhimal, Adelaja Oluwawunmi and Santosh Tamang got on the scoresheet as Biratnagar City FC routed Dhangadhi FC 3-0 to make a winning start in the Nepal Super League on Sunday.
+                                </p>
+                                <a href="https://kathmandupost.com/football/2021/04/26/biratnagar-city-off-to-flying-start-in-nepal-super-league" target="_blank" class="btn btn-primary">Read..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second card -->
+                    <div class="col-4-lg">
+                        <div class="card" style="width:18rem;">
+                            <img src="assests/pictures/sports/usopen.jfif" alt="Card Two" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Thiem claims US Open title after thrilling fightback</h5>
+                                <p class="card-text">
+                                    The 27-year-old world number three, beaten in his first three Grand Slam finals, started as favourite but appeared to have blown his golden chance as he fell two sets behind.
+                                    Austria’s Dominic Thiem finally claimed his first Grand Slam title with a stunning comeback to beat Germany’s Alexander Zverev 2-6 4-6 6-4 6-3 7-6(6) in a brutal and nerve-jangling US Open final on Sunday.
+                                </p>
+                                <a href="https://kathmandupost.com/international-sports/2020/09/14/thiem-claims-us-open-title-after-thrilling-fightback" target="_blank" class="btn btn-primary">Read..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="col-4-lg">
+                        <div class="card" style="width:18rem;">
+                            <img src="assests/pictures/sports/neymar.jpg" alt="Card Two" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Neymar: Is Paris St-Germain's forward a magical talent or preening prima donna?</h5>
+                                <p class="card-text">
+                                    Is there a modern, top-level footballer as revered and reviled in such equal measure as Neymar?
+                                    The forward is one of the most talented players of his generation, an icon in his native Brazil and the most expensive player in football history.
+                                    He is also, in the eyes of some, a preening prima donna and serial diver.
+                                    Something surely everyone can agree on is that even after an injury-affected campaign for Paris St-Germain he represents a huge threat to Manchester City's hopes of a maiden Champions League title.
+                                </p>
+                                <a href="https://www.bbc.com/sport/football/56800034" target="_blank" class="btn btn-primary">Read..</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth card -->
+                    <div class="col-4-lg">
+                        <div class="card" style="width:18rem;">
+                            <img src="assests/pictures/sports/city.jpg" alt="Card Two" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">PSG v Man City: Why Raheem Sterling is man for the big moment - Micah Richards</h5>
+                                <p class="card-text">
+                                    I don't understand why people ever doubt Raheem Sterling as a player, because he always comes back with a big performance that reminds you what an outstanding talent he is.
+                                    Of course he can be frustrating when he is below his best, but he has shown before how resilient he is. You know his head won't drop if he is having a sticky patch, and that his form will return.
+                                </p>
+                                <a href="https://www.bbc.com/sport/football/56906838" target="_blank" class="btn btn-primary">Read..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>   
+        <footer>
+            <div class="footercontainer">
+                <p>@Copyright 2021, Kathmandu Online Media</p>
+            </div>
+        </footer>       
+    </body>
+    
+    <!-- navigation script -->
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const naviList = document.getElementById('naviList');
+
+        toggleButton.addEventListener('click', () =>{
+            naviList.classList.toggle('active');
+        })
+    </script>
+    <!-- jquery hovering effect -->
+    <script>
+        $(document).ready(function(){
+            $('.col-4-lg').hover(
+                //trigger when mouse hover
+                function(){
+                    $(this).animate({
+                        marginTop: "-=1%",
+                    },200);
+                },
+              
+                //trigger when mouse out
+                function(){
+                    $(this).animate({
+                        marginTop: "0%",
+                    },200);
+                }
+            );
+        });
+    </script>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+</html>
